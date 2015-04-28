@@ -1,0 +1,63 @@
+2014-11-05 12:11:52am | An error has occured in /var/www/ares/sistema/control.php on line 65
+2014-11-05 10:30:17pm | An error has occured in /var/www/ares/sistema/control.php on line 65
+2014-11-05 10:47:12pm | An error has occured in /var/www/ares/sistema/control.php on line 63
+2014-11-05 10:47:26pm | An error has occured in /var/www/ares/sistema/control.php on line 63
+2014-11-10 08:33:19pm | An error has occured in /var/www/ares/sistema/control.php on line 67
+2014-11-10 08:37:43pm | An error has occured in /var/www/ares/sistema/control.php on line 67
+2014-11-18 11:34:15pm | #0 /var/www/ares/sistema/Control.php(97): BackController->__construct()
+#1 /var/www/ares/sistema/Control.php(80): Control::backController()
+#2 /var/www/ares/index.php(91): Control::run()
+#3 {main} in /var/www/ares/sistema/Control.php on line 86
+2014-11-18 11:35:01pm | #0 /var/www/ares/sistema/Control.php(97): BackController->__construct()
+#1 /var/www/ares/sistema/Control.php(80): Control::backController()
+#2 /var/www/ares/index.php(91): Control::run()
+#3 {main} in /var/www/ares/sistema/Control.php on line 86
+2014-11-18 11:37:15pm | exception 'Exception' with message 'Módulo /var/www/ares/application/modulo_login não encontrado' in /var/www/ares/sistema/BackController.php:38
+Stack trace:
+#0 /var/www/ares/sistema/Control.php(97): BackController->__construct()
+#1 /var/www/ares/sistema/Control.php(80): Control::backController()
+#2 /var/www/ares/index.php(91): Control::run()
+#3 {main} in /var/www/ares/sistema/Control.php on line 86
+2014-11-18 11:38:30pm | exception 'Exception' with message 'Módulo /var/www/ares/sistema/modulo_login não encontrado' in /var/www/ares/sistema/BackController.php:38
+Stack trace:
+#0 /var/www/ares/sistema/Control.php(97): BackController->__construct()
+#1 /var/www/ares/sistema/Control.php(80): Control::backController()
+#2 /var/www/ares/index.php(91): Control::run()
+#3 {main} in /var/www/ares/sistema/Control.php on line 86
+2014-11-23 07:51:33pm | exception 'Exception' with message 'Módulo /var/www/ares/sistema/modulo_inicio não encontrado' in /var/www/ares/sistema/BackController.php:38
+Stack trace:
+#0 /var/www/ares/sistema/Control.php(97): BackController->__construct()
+#1 /var/www/ares/sistema/Control.php(80): Control::backController()
+#2 /var/www/ares/index.php(91): Control::run()
+#3 {main} in /var/www/ares/sistema/Control.php on line 86
+2014-11-23 08:05:06pm | exception 'Exception' with message 'Módulo /var/www/ares/sistema/modulo_sistema não encontrado' in /var/www/ares/sistema/BackController.php:38
+Stack trace:
+#0 /var/www/ares/sistema/Control.php(100): BackController->__construct()
+#1 /var/www/ares/sistema/Control.php(80): Control::backController()
+#2 /var/www/ares/index.php(91): Control::run()
+#3 {main} in /var/www/ares/sistema/Control.php on line 89
+2014-11-23 08:08:51pm | arquivo "/var/www/ares/sistema//templaates/ares_one/template.php" não encontrado in /var/www/ares/sistema/View.php on line 141
+2014-11-30 09:56:35pm | exception 'DDDException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' in /var/www/ares/sistema/DDDatabase/DDDatabase.php:69
+Stack trace:
+#0 /var/www/ares/sistema/DDDatabase/DDDatabase.php(93): DDDatabase->setConnectSettings('ares', Object(DDConnectSettings))
+#1 /var/www/ares/sistema/BackController.php(14): DDDatabase->tryConnect('ares')
+#2 /var/www/ares/sistema/Control.php(103): BackController->__construct()
+#3 /var/www/ares/sistema/Control.php(80): Control::backController()
+#4 /var/www/ares/index.php(93): Control::run()
+#5 {main} in /var/www/ares/sistema/Control.php on line 92
+2014-11-30 10:04:19pm | exception 'DDDException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' in /var/www/ares/sistema/DDDatabase/DDDatabase.php:69
+Stack trace:
+#0 /var/www/ares/sistema/DDDatabase/DDDatabase.php(93): DDDatabase->setConnectSettings('ares', Object(DDConnectSettings))
+#1 /var/www/ares/sistema/BackController.php(14): DDDatabase->tryConnect('ares')
+#2 /var/www/ares/sistema/Control.php(103): BackController->__construct()
+#3 /var/www/ares/sistema/Control.php(80): Control::backController()
+#4 /var/www/ares/index.php(92): Control::run()
+#5 {main} in /var/www/ares/sistema/Control.php on line 92
+2014-11-30 10:06:08pm | exception 'DDDException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' in /var/www/ares/sistema/DDDatabase/DDDatabase.php:69
+Stack trace:
+#0 /var/www/ares/sistema/DDDatabase/DDDatabase.php(93): DDDatabase->setConnectSettings('ares', Object(DDConnectSettings))
+#1 /var/www/ares/sistema/BackController.php(14): DDDatabase->tryConnect('ares')
+#2 /var/www/ares/sistema/Control.php(105): BackController->__construct()
+#3 /var/www/ares/sistema/Control.php(80): Control::backController()
+#4 /var/www/ares/index.php(92): Control::run()
+#5 {main} in /var/www/ares/sistema/Control.php on line 93
